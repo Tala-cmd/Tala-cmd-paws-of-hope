@@ -1,0 +1,67 @@
+.adopting-rules{
+font-size: 20px;
+font-family: 'Prompt', sans-serif;
+text-align: center;
+border: dashed;
+border-radius: 3px;
+border-color:rgb(129, 173, 180);
+border-bottom-color:rgb(73, 73, 141);
+border-left-color:rgb(73, 73, 141);
+margin-top:10px;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+
+.responsibilities-container{
+display: grid;
+margin-top:20px;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+column-gap: 10px;
+font-family: 'Prompt', sans-serif;
+}
+
+.essential-1, .essential-3, .essential-5, .essential-7{
+background-color: rgba(255, 160, 122, 0.505);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+}
+
+.essential-2, .essential-4, .essential-6{
+background-color: rgba(135, 206, 250, 0.513);
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+}
+
+.topic-1, .topic-2, .topic-3, .topic-4, .topic-5, .topic-6, .topic-7{
+display: flex;
+justify-content: center;
+white-space: nowrap;
+font-weight:bold;
+}
+
+.responsibilities-container img {
+    width:  80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.responsibility-picture{
+    display: flex;
+    justify-content: center;
+}
+
+.responsibility-description{
+font-size:16px;
+padding: 6px 10px 10px 4px;
+text-align: center;
+}
+
+
+
+
+
+
