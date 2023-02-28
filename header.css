@@ -1,0 +1,147 @@
+body{
+    background-color: rgba(201, 205, 208, 0.409);
+}
+
+.first-header{
+background-color: rgb(194, 208, 229);
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+font-family: 'Prompt', sans-serif;
+height:80px;
+position:fixed;
+top:0;
+left:0;
+right:0;
+z-index:1;
+}
+
+.left-side{
+display: flex;
+flex-direction:row;
+align-items: end;
+}
+.right-side{
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+
+.logo{
+width:110px;
+top:0;
+left:0;
+}
+
+.adopt-button{
+font-size:20px;
+font-weight:bold;
+left:120px;
+top:20px;
+color:rgb(66, 68, 68);
+border:lightgray;
+border-radius:4px;
+background-color: rgb(172, 174, 176);
+padding: 4px 6px 4px 6px;
+margin: 0px 0px 20px 20px;
+cursor: pointer;
+}
+
+.donate-button{
+font-size:20px;
+font-weight:bold;
+color:rgb(66, 68, 68);
+border:lightgray;
+border-radius:4px;
+background-color: rgb(172, 174, 176);
+padding: 4px 6px 4px 6px;
+margin: 0px 0px 20px 20px;
+cursor: pointer;
+}
+
+.donate-button:hover,
+.adopt-button:hover{
+background-color:rgba(55, 55, 58, 0.468) ;
+font-size:23px;
+}
+
+.contact-us, .border, .log-in, .sign-up
+{
+display:flex;
+justify-content: space-between;
+font-size:20px;
+color:rgb(66, 68, 68);
+}
+.border{
+font-size:25px;
+margin-right:20px;
+}
+
+.contact-us{
+cursor: pointer;
+margin-right:20px;
+}
+
+.log-in{
+cursor: pointer;
+width:80px;
+}
+
+.sign-up{
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.contact-us:hover, .log-in:hover, .sign-up:hover
+{
+    color:black;
+    font-size: 22px;
+}
+
+.second-header{
+font-family: 'Prompt', sans-serif;
+color:rgb(66, 68, 68);
+font-size:17px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgba(240, 193, 219, 0.371);
+position:absolute;
+top:90px;
+right:0;
+left:0;
+height:40px;
+z-index:0;
+}
+
+.home{
+margin-left:20px;
+}
+.cart{
+margin-right:20px;
+}
+.search{
+width:180px;
+height:20px;
+border:none;
+border-radius: 5px;
+padding: 8px 0px 3px 8px;
+}
+.search::placeholder{
+font-size: 18px;
+}
+
+.home, .dogs-puppies, .cats-kittens, .about-us,
+.adoption-rules, .search, .favorites, .cart{
+margin-left: 30px;
+}
+
+
+.home:hover, .dogs-puppies:hover, .cats-kittens:hover, .about-us:hover,
+.adoption-rules:hover, .search:hover, .favorites:hover, .cart:hover
+{
+cursor: pointer;
+font-size: 20px;
+color:black;
+}
+
