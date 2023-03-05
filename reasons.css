@@ -1,0 +1,50 @@
+.adopting-container{
+    font-family: 'Prompt', sans-serif;
+    text-align:justify;
+    font-size: 22px;
+}
+
+.adopting-reasons{
+display: flex;
+flex:1;
+justify-content: center;
+text-align: center;
+border: dashed;
+border-radius: 3px;
+border-color:rgb(129, 173, 180);
+border-bottom-color:rgb(73, 73, 141);
+border-left-color:rgb(73, 73, 141);
+margin-top:30px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.adopting-paragraph{
+font-size:20px;
+margin-top:20px;
+}
+
+.paragraph-picture{
+padding-top:10px;
+width:100%;
+height:400px;
+object-fit: fill;
+}
+
+.reason-container{
+margin-top:14px;
+}
+
+.reason{
+font-size:25px;
+text-decoration: underline;
+cursor:pointer;
+color:rgb(115, 118, 118);
+}
+.reason:hover{
+    color:rgb(66, 68, 68);
+}
+
+.reason-paragraph{
+font-size:23px;
+}

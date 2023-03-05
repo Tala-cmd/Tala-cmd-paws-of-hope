@@ -35,11 +35,17 @@ display: flex;
 flex-direction: column;
 }
 
+.essential-1:hover, .essential-3:hover, .essential-5:hover, .essential-7:hover, .essential-2:hover, .essential-4:hover, .essential-6:hover{
+    width:300px;
+    font-size:25px;
+}
+
 .topic-1, .topic-2, .topic-3, .topic-4, .topic-5, .topic-6, .topic-7{
 display: flex;
 justify-content: center;
 white-space: nowrap;
 font-weight:bold;
+cursor: pointer;
 }
 
 .responsibilities-container img {
